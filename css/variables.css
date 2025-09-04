@@ -1,0 +1,37 @@
+/* Beritan/AU-2-Apply Base Styles Start*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  /*colors*/
+  --clr-white: white;
+  --clr-darkblue: #3A0CA3;
+  --clr-yellow: yellow;
+  --clr-gry: #D4D4D44D;
+  --clr-blue: #4361EE;
+
+
+ 
+  
+  /* Fontlar */
+--poppins: "Poppins", sans-serif;
+
+
+--size-8:8px;
+--size-11:11px;
+--size-12:12px;
+--size-14:14px;
+--size-15:15px;
+--size-16:16px;
+--size-18:18px;
+--size-20:20px;
+--size-24:24px;
+--size-32:32px;
+--size-36:36px;
+--size-40:40px;
+--size-56:56px;
+--size-72:72px;
+}
+
+/* Beritan-AU-2-Apply Base Styles End*/

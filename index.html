@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>August-frontend-rezilla-1</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="images/reshot-icon-house-XJ53QBRVTC 1.png" type="image/x-icon" />
+  <meta property="og:August-frontend-rezilla-1" content="Find a perfect home you love" />
+  <meta property="og:image"
+    content="https://en.idei.club/uploads/posts/2023-06/1685990853_en-idei-club-p-window-building-inside-dizain-47.jpg" />
+  <meta property="og:description" content="You are very close to your dream life with us" />
+  <meta property="og:locale" content="en_EN" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <!-- Ahmet Yeral Implement the Primary Header AU-3  -->
+  <div class="headerContainer">
+    <nav>
+      <ul class="headerList">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Listings</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blogs</a></li>
+      </ul>
+    </nav>
+    <div class="headerLogoContainer">
+      <img class="headerLogo" src="./images/house.svg" alt="" />
+      <span>Rezilla</span>
+    </div>
+    <div class="buttonsContainer">
+      <div class="headerButton">
+        <a href="#"><img src="./images/login.svg" alt="" /><span>Login/Register</span></a>
+      </div>
+
+      <button class="addlistingButton">
+        <img src="./images/hou.svg" alt="" />Add Listing
+      </button>
+      <i class="fa-solid fa-bars hamburgermenu"></i>
+    </div>
+  </div>
+
+  <!-- Ahmet Yeral Implement the Primary Header AU-3  -->
+
+  <!--rabia-AU-8-hero-left-elements-start--->
+  <section class="hero-content">
+    <div class="hero-left">
+      <h3 class="real">REAL ESTATE</h3>
+      <p class="find">Find a perfect home you love..!</p>
+      <h5 class="description">
+        Etiam eget elementum elit. Aenean dignissim dapibus vestibulum.
+        Integer a dolor eu sapien sodales vulputate ac in purus.
+      </h5>
+
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="images/luxury-classic-modern-bedroom-suite-hotel 1.svg" style="width: 100%" />
+        </div>
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="images/luxury-classic-modern-bedroom-suite-hotel 1.svg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/luxury-classic-modern-bedroom-suite-hotel 1.svg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="images/luxury-classic-modern-bedroom-suite-hotel 1.svg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/luxury-classic-modern-bedroom-suite-hotel 1.svg" style="width: 100%" />
+          </div>
+        </div>
+        <br />
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"><img src="images/Vector 1.svg" alt="prev" /></a>
+        <a class="next" onclick="plusSlides(1)"><img src="images/Vector 2.svg" alt="next" /></a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <!--aykut-AU-9-heo-right-elements-start-->
+    <div class="hero-right">
+      <div class="tabs">
+        <button class="for-sale">For Sale</button>
+        <button class="for-sale">For Rent</button>
+      </div>
+      <form action="" class="form-action">
+        <input placeholder="New York, San Francisco, etc" class="city" id="sale" />
+        <select class="form-select">
+          <option class="type">Select Property Type</option>
+          <option>#</option>
+          <option class="type">Select Rooms</option>
+          <option>#</option>
+        </select>
+        <select class="form-select" id="rent">
+          <option class="type">Rent Type</option>
+          <option>#</option>
+          <option value="">Rooms</option>
+          <option value="">#</option>
+        </select>
+        <button class="form-button">
+          <img src="images/icon _setting 5_.svg" alt="" class="icon5" />
+          Advance Search
+        </button>
+        <button class="search-button">
+          <img src="images/Frame 16.svg" alt="" />
+        </button>
+      </form>
+      <!--aykut-AU-9-heo-right-elements-end-->
+    </div>
+  </section>
+
+  <!--rabia-AU-8-heo-left-elements-end-->
+
+  <!--Beritan/AU-13 Partners Section Start-->
+  <section class="partners-section">
+    <div class="trusted-companies-section">
+      <p class="trusted-text">Trusted by 100+ Companies across the globe!</p>
+      <div class="logos">
+        <img src="./images/google.svg" alt="Google" />
+        <img src="./images/amazon.svg" alt="Amazon" />
+        <img src="./images/logitech.svg" alt="Logitech" />
+        <img src="./images/spotify.svg" alt="Spotify" />
+        <img src="./images/samsung.svg" alt="Samsung" />
+        <img src="./images/netflix.svg" alt="Netflix" />
+      </div>
+    </div>
+  </section>
+
+  <!--Beritan/AU-13 Partners Section End-->
+
+  <!--Ahmet/AU-15 Implement the about section | "WHO ARE WE" start-->
+
+  <section class="section-about">
+    <div class="about-section-left">
+      <div class="section-title">
+        <p class="who">WHO ARE WE</p>
+        <h2 class="Assisting">
+          Assisting individuals in locating the appropriate real estate.
+        </h2>
+        <p class="text">
+          Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+          dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac
+          malesuada leo volutpat.
+        </p>
+      </div>
+      <div class="logo-container">
+        <img src="./images/smarthome.svg" alt="" />
+        <div>
+          <h4>Donec porttitor euismod</h4>
+          <p>Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+        </div>
+      </div>
+
+      <div class="logo-container">
+        <img src="./images/user.svg" alt="" />
+        <div>
+          <h4>Donec porttitor euismod</h4>
+          <p>Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section-right">
+      <div class="about-section-right-left-images">
+        <img src="./images/Rectanglehouse.svg" alt="" />
+      </div>
+
+      <div class="about-section-right-right-images">
+        <div><img src="./images/Rectanglebed.svg" alt="" /></div>
+
+        <div><img src="./images/Rectangle.svg" alt="" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!--Ahmet/AU-15 Implement the about section | "WHO ARE WE" end-->
+
+  <!--Ahmet-Implement-the-property-listings-on-the-listing-section-start-->
+  <section class="property-section">
+    <div class="property-header">
+      <span class="sub-title">CHECKOUT OUR NEW</span>
+      <h2 class="main-title">Latest Listed Properties</h2>
+      <p class="description">
+        Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+        dignissim purus.
+      </p>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="btn active">All</button>
+      <button class="btn">Sell</button>
+      <button class="btn">Rent</button>
+    </div>
+  </section>
+  <div class="section">
+    <ul class="section-container">
+      <li>
+        <div>
+          <img src="./images/img1.svg" alt="" />
+        </div>
+        <div>
+          <h3>$ 5,970</h3>
+          <p class="section-title">Tranquil Haven in the Woods</p>
+          <span class="span1">103 Wright CourtBurien, WA 98168</span>
+        </div>
+        <div class="icon">
+          <div>
+            <img src="./images/icon bed.svg" alt="" />
+            <p>4 Beds</p>
+          </div>
+          <div>
+            <img src="./images/iconbathroom.svg" alt="" />
+            <p>3 Bath</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <img src="./images/img2.svg" alt="" />
+        </div>
+
+        <div>
+          <h3>$ 1,970</h3>
+          <p class="section-title">Serene Retreat by the Lake</p>
+          <span>1964 Jehovah Drive, VA 22408</span>
+        </div>
+        <div class="icon">
+          <div>
+            <img src="./images/icon bed.svg" alt="" />
+            <p>3 Beds</p>
+          </div>
+          <div>
+            <img src="./images/iconbathroom.svg" alt="" />
+            <p>2 Bath</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <img src="./images/img3.svg" alt="" />
+        </div>
+        <div>
+          <h3>$ 3,450</h3>
+          <p class="section-title">Charming Cottage in the Meadow</p>
+          <span>1508 Centennial Farm RoadHarlan, 51537</span>
+        </div>
+        <div class="icon">
+          <div>
+            <img src="./images/icon bed.svg" alt="" />
+            <p>4 Beds</p>
+          </div>
+          <div>
+            <img src="./images/iconbathroom.svg" alt="" />
+            <p>4 Bath</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <img src="./images/img4.svg" alt="" />
+        </div>
+        <div>
+          <h3>$ 2,389</h3>
+          <p class="section-title">Grand Estate on the Hilltop</p>
+          <span>103 Wright CourtBurien, WA 98168</span>
+        </div>
+        <div class="icon">
+          <div>
+            <img src="./images/icon bed.svg" alt="" />
+            <p>4 Beds</p>
+          </div>
+          <div>
+            <img src="./images/iconbathroom.svg" alt="" />
+            <p>3 Bath</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--rabia-AU-23-ımlement-the-locations-section-start-->
+  <section class="locations">
+    <div class="tittle">
+      <h3 class="areas">AREAS ACROSS THE TOWN</h3>
+      <h2 class="subtittle">Neighborhood Properties</h2>
+    </div>
+
+    <div class="img-box">
+      <div class="newyork">
+        <img src="./images/Property 1.svg" alt="New York City" />
+      </div>
+      <div class="houston">
+        <img src="./images/Property 2.svg" alt="Houston" />
+      </div>
+
+      <div class="sandiego">
+        <img src="./images/Property 3.svg" alt="San Diego" />
+      </div>
+    </div>
+
+    <div class="img-box">
+      <div class="ph">
+        <img src="./images/Property 4.svg" alt="philadelphia" />
+      </div>
+
+      <div class="sanfran">
+        <img src="./images/Property 5.svg" alt="San Fandcisco" />
+      </div>
+    </div>
+  </section>
+  <!--rabia-AU-23-ımlement-the-locations-section-end-->
+
+  <!--Beritan/AU-25 Impelent The Team Start-->
+
+  <section class="team-section">
+    <h4 class="team-intro">INTRODUCE YOURSELF TO</h4>
+    <h2 class="team-title">Our Team of Experts</h2>
+
+    <div class="team-container">
+      <div class="team-member">
+        <img src="./images/Brendon.svg" alt="Brendon M" />
+        <h3>Brendon M</h3>
+        <p>CEO & Founder</p>
+      </div>
+      <div class="team-member">
+        <img src="./images/Jodi.svg" alt="Jodi J. Appleby" />
+        <h3>Jodi J. Appleby</h3>
+        <p>Real Estate Developer</p>
+      </div>
+      <div class="team-member">
+        <img src="./images/Justin.svg" alt="Justin S. Meza" />
+        <h3>Justin S. Meza</h3>
+        <p>Listing Agent</p>
+      </div>
+      <div class="team-member">
+        <img src="./images/Susan.svg" alt="Susan T. Smith" />
+        <h3>Susan T. Smith</h3>
+        <p>Buyer’s Agent</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Beritan/AU-25 Impelent The Team End-->
+
+  <!--Aykut-Implement-the-trennding-section-start-->
+
+  <section class="trending">
+    <div class="trending-title">
+      <h4>WHAT'S TRENDING</h4>
+      <h2>Latest Blogs & Posts</h2>
+    </div>
+    <div class="trending-cards">
+      <div class="trending-card">
+        <img src="images/trending-img1.png" class="trending-img" alt="Top 10 img">
+        <h4 class="trending-title-head">Top 10 Home Buying Mistakes to Avoid</h4>
+        <p class="trending-title-text">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum.</p>
+        <img src="/images/Frame 34.svg" class="right-arrow-img" alt="right arrow img">
+      </div>
+      <div class="trending-card">
+        <img src="images/trending-img2.png" class="trending-img" alt="Quick Sale img">
+        <h4 class="trending-title-head">How to Stage Your Home for a Quick Sale</h4>
+        <p class="trending-title-text">Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.</p>
+        <img src="/images/Frame 34.svg" class="right-arrow-img" alt="right arrow img">
+      </div>
+      <div class="trending-card">
+        <div class="image-container">
+          <img src="images/tranding-img3.png" class="trending-img" alt="Home sellers img">
+          <div class="publish-date">
+            <p class="date"><span class="date-number">26</span> <br> Wed</p>
+          </div>
+        </div>
+        <h4 class="trending-title-head">5 Tips for First-Time Home Sellers</h4>
+        <p class="trending-title-text">In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.</p>
+        <img src="/images/Frame 34.svg" class="right-arrow-img" alt="right arrow img">
+      </div>
+    </div>
+    <div class="slider">
+      <span class="trending-dot" onclick="currentSlide(1)"></span>
+      <span class="trending-dot" onclick="currentSlide(2)"></span>
+      <span class="trending-dot" onclick="currentSlide(3)"></span>
+    </div>
+    </div>
+
+  </section>
+
+  <!--Aykut-Implement-the-trennding-section-end-->
+
+
+  <!--Ahmet-Implement the testimonials section start-->
+
+  <section class="section-testimonials">
+    <div class="section-testimonials-left">
+      <div class="testimonials-text">
+        <h2 class="testimonials-title">TESTIMONIALS</h2>
+        <p class="section-subtitle">Look What Our Customers Say!</p>
+        <p class="section-description">
+          Fusce venenatis tellus a felis scelerisque, non pulvinar est
+          pellentesque.
+        </p>
+      </div>
+
+      <div class="direction-container">
+        <img src="./images/direction2.svg" alt="" />
+        <img src="./images/direction.svg" alt="" />
+      </div>
+    </div>
+    <div class="testimonials-right">
+      <div class="testimonials-logo">
+        <img src="./images/testimonials.svg" alt="" />
+        <h4 class="comment">
+          I highly recommend Jodi J. Appleby. She was attentive to our needs
+          and worked tirelessly to find us the perfect home. We couldn't be
+          happier with our new place!
+        </h4>
+        <hr />
+
+        <div class="profile-section">
+          <div class="profile">
+            <img src="./images/Ellipse.svg" alt="" />
+            <p class="name">Barbara D. Smith</p>
+          </div>
+
+          <div class="stars">
+            <img src="./images/stars.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Ahmet-Implement the testimonials section end-->
+  <!--Beritan/AU-31 CTA Banner Start-->
+
+  <section class="agent-section">
+    <div class="agent-container">
+      <div class="agent-left">
+        <img src="./images/CTAmen.svg" alt="Agent" />
+      </div>
+      <div class="agent-right">
+        <div class="agent-info">
+          <h2>Become an Agent.</h2>
+          <p>
+            Fusce venenatis tellus a felis scelerisque. Venenatis tellus a
+            felis scelerisque.
+          </p>
+        </div>
+        <button class="agent-button">
+          <a href="#">Register Now</a>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!--Beritan/AU-31 CTA Banner End-->
+  <footer>
+    <ul class="footer-list">
+      <!--Logo ve iletişim bilgileri-->
+      <li>
+        <div class="logo">
+          <img src="images/Frame 1.png" alt="logo" />
+        </div>
+        <div class="address">
+          <p>
+            2728 Hickory StreetSalt <br />
+            Lake City, UT 84104
+          </p>
+        </div>
+        <div class="icon">
+          <img src="images/icon _phone_.png" alt="phone icon" />
+          <span>+1 206-214-2298</span>
+        </div>
+        <div class="icon">
+          <img src="images/icon _mail_.png" alt="mail icon" />
+          <span>support@rezilla.com</span>
+        </div>
+      </li>
+
+      <!--Hızlı Linkler-->
+      <li>
+        <h4>Quick Links</h4>
+        <br />
+        <a href="#" class="quick-links">Home</a>
+        <br />
+        <a href="#" class="quick-links">About</a>
+        <br />
+        <a href="#" class="quick-links">Listings</a>
+        <br />
+        <a href="#" class="quick-links">Services</a>
+        <br />
+        <a href="#" class="quick-links">Blogs</a>
+        <br />
+        <a href="#" class="quick-links">Become a Agent</a>
+      </li>
+
+      <!--Discovery-->
+      <li>
+        <h4>Discovery</h4>
+
+        <p class="discovery">Canada</p>
+        <p class="discovery">United States</p>
+        <p class="discovery">Germany</p>
+        <p class="discovery">Africa</p>
+      </li>
+
+      <!--Form, sosyal medya-->
+      <li>
+        <div class="social-media-list">
+          <p class="subscribe">
+            Subscribe to our <br />
+            Newsletter!
+          </p>
+          <form class="email-form">
+            <input type="email" placeholder="Email Address" required />
+            <button type="submit">➜</button>
+          </form>
+          <div>
+            <p class="social-media">Follow Us on</p>
+            <a href="#" class="fab fa-linkedin" id="linkedin"></a>
+            <a href="#" class="fab fa-facebook-f" id="facebook"></a>
+            <a href="#" class="fab fa-instagram" id="linkedin"></a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </footer>
+</body>
+<script src="./js/hero.js"></script>
+
+</html>
